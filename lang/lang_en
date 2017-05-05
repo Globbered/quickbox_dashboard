@@ -35,7 +35,8 @@ $L['PLUGINS'] = 'Plugins';
 $L['HELP_COMMANDS'] = 'Help Commands & More';
 $L['QUICK_SYSTEM_TIPS'] = 'Quick System Tips';
 $L['DISKTEST_TXT'] = 'Type this command to perform a quick r/w test of your disk.';
-$L['FIXHOME_TXT'] = 'Type this command to quickly adjusts /home directory permissions.';
+$L['FIXHOME_HOMEMOUNT_TXT'] = 'Type this command to quickly adjusts /home directory permissions.';
+$L['FIXHOME_ROOTMOUNT_TXT'] = 'Type this command to quickly adjusts / directory permissions.';
 // admin commands section
 $L['ADMIN_COMMANDS'] = 'Admin Commands';
 $L['SETDISK_TXT'] = 'Type this command in ssh to allocate the amount of disk space you would like to give to a user.';
@@ -49,8 +50,11 @@ $L['UPGRADEPLEX_TXT'] = 'Type this command in ssh to upgrade Plex to newest vers
 $L['UPGRADEDELUGE_TXT'] = 'Type this command in ssh to upgrade Deluge to newest version when available.';
 $L['UPGRADEJACKETT_TXT'] = 'Type this command in ssh to upgrade Jackett to newest version when available.';
 $L['UPGRADEPYLOAD_TXT'] = 'Type this command in ssh to upgrade pyLoad to newest version when available.';
+$L['UPGRADEOMBI_TXT'] = 'Type this command in ssh to upgrade pyLoad to newest version when available.';
 $L['SETUPPYLOAD_TXT'] = 'Type this command in ssh to run the pyLoad setup script.';
 $L['CLEAN_MEM_TXT'] = 'Use the above command as root if/when you decide to clear your systems Physical Memory Cache';
+$L['REMOVE_PACKAGE_CRON_TXT'] = 'Upgrades your system to make use of systemd.';
+$L['MORE_COMMANDS_TXT'] = 'More commands detailed here.';
 // essential user commands section
 $L['ESSENTIAL_USER_COMMANDS'] = 'Essential User Commands';
 $L['RELOAD_TXT'] = 'allows user to reload their services (rtorrent and irssi)';
