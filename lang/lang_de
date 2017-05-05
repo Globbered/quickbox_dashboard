@@ -35,7 +35,9 @@ $L['PLUGINS'] = 'Plugins';
 $L['HELP_COMMANDS'] = 'Hilfsbefehle & Mehr';
 $L['QUICK_SYSTEM_TIPS'] = 'Quick System Tipps';
 $L['DISKTEST_TXT'] = 'Dieser Befehl führt einen schnellen Lese/Schreib-Test deiner Festplatte durch.';
-$L['FIXHOME_TXT'] = 'Führe diesen Befehl aus, um schnell die /home Ordnerberechtigungen anzupassen.';
+$L['FIXHOME_HOMEMOUNT_TXT'] = 'Type this command to quickly adjusts /home directory permissions.';
+$L['FIXHOME_ROOTMOUNT_TXT'] = 'Type this command to quickly adjusts / directory permissions.';
+// $L['FIXHOME_TXT'] = 'Führe diesen Befehl aus, um schnell die /home Ordnerberechtigungen anzupassen.';
 // admin commands section
 $L['ADMIN_COMMANDS'] = 'Admin Befehle';
 $L['SETDISK_TXT'] = 'Führe diesen Befehl via SSH aus, um einem Benutzer eine bestimmte Menge an Speicherplatz zuzuweisen.';
@@ -49,8 +51,11 @@ $L['UPGRADEPLEX_TXT'] = 'Führe diesen Befehl via SSH aus, um Plex auf die neues
 $L['UPGRADEDELUGE_TXT'] = 'Führe diesen Befehl via SSH aus, um Deluge auf die neueste verfügbare Version zu aktualisieren.';
 $L['UPGRADEJACKETT_TXT'] = 'Führe diesen Befehl via SSH aus, um Jackett auf die neueste verfügbare Version zu aktualisieren.';
 $L['UPGRADEPYLOAD_TXT'] = 'Führe diesen Befehl via SSH aus, um pyLoad auf die neueste verfügbare Version zu aktualisieren.';
+$L['UPGRADEOMBI_TXT'] = 'Type this command in ssh to upgrade pyLoad to newest version when available.';
 $L['SETUPPYLOAD_TXT'] = 'Führe diesen Befehl via SSH aus, um das pyLoad Setup-Script auszuführen.';
 $L['CLEAN_MEM_TXT'] = 'Führe den oben genannten Befehl als root aus, wenn du den physikalischen Cache-Speicher deines Systems löschen möchtest.';
+$L['REMOVE_PACKAGE_CRON_TXT'] = 'Upgrades your system to make use of systemd.';
+$L['MORE_COMMANDS_TXT'] = 'More commands detailed here.';
 // essential user commands section
 $L['ESSENTIAL_USER_COMMANDS'] = 'Grundlegende Nutzerbefehle';
 $L['RELOAD_TXT'] = 'Ermöglicht es dem Nutzer, seine Dienste neuzustarten (rTorrent sowie irssi)';
