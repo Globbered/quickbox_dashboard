@@ -35,7 +35,9 @@ $L['PLUGINS'] = 'Plugins';
 $L['HELP_COMMANDS'] = 'Commandes d\'aide et plus';
 $L['QUICK_SYSTEM_TIPS'] = 'Astuces';
 $L['DISKTEST_TXT'] = 'Tapez cette commande pour effectuer un rapide test de lecture/écriture sur votre disque.';
-$L['FIXHOME_TXT'] = 'Tapez cette commande pour ajuster rapidement les permissions du dossier /home.';
+$L['FIXHOME_HOMEMOUNT_TXT'] = 'Type this command to quickly adjusts /home directory permissions.';
+$L['FIXHOME_ROOTMOUNT_TXT'] = 'Type this command to quickly adjusts / directory permissions.';
+// $L['FIXHOME_TXT'] = 'Tapez cette commande pour ajuster rapidement les permissions du dossier /home.';
 // admin commands section
 $L['ADMIN_COMMANDS'] = 'Commandes Administrateur';
 $L['SETDISK_TXT'] = 'Tapez cette commande en SSH pour allouer la quantité d\' espace disque que vous souhaitez donner à un utilisateur.';
@@ -49,8 +51,11 @@ $L['UPGRADEPLEX_TXT'] = 'Tapez cette commande en SSH pour mettre à jour Plex ve
 $L['UPGRADEDELUGE_TXT'] = 'Tapez cette commande en SSH pour mettre à jour Deluge vers la nouvelle version quand elle sera disponible.';
 $L['UPGRADEJACKETT_TXT'] = 'Tapez cette commande en SSH pour mettre à jour Jackett vers la nouvelle version quand elle sera disponible.';
 $L['UPGRADEPYLOAD_TXT'] = 'Tapez cette commande en SSH pour mettre à jour pyLoad vers la nouvelle version quand elle sera disponible.';
+$L['UPGRADEOMBI_TXT'] = 'Type this command in ssh to upgrade pyLoad to newest version when available.';
 $L['SETUPPYLOAD_TXT'] = 'Tapez cette commande en SSH pour lancer le script d\'installation de pyLoad.';
 $L['CLEAN_MEM_TXT'] = 'Tapez cette commande en tant que root si/quand vous décidez de nettoyer le cache de Mémoire Physique.';
+$L['REMOVE_PACKAGE_CRON_TXT'] = 'Upgrades your system to make use of systemd.';
+$L['MORE_COMMANDS_TXT'] = 'More commands detailed here.';
 // essential user commands section
 $L['ESSENTIAL_USER_COMMANDS'] = 'Commandes utilisateur essentielles';
 $L['RELOAD_TXT'] = 'Autorise l’utilisateur à recharger ses services (rTorrent et IRSSI).';
