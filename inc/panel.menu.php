@@ -196,8 +196,11 @@
             <li style="padding: 7px"><span style="font-size: 12px; color:#eee">disktest</span><br/>
               <small><?php echo T('DISKTEST_TXT'); ?></small>
             </li>
-            <li style="padding: 7px"><span style="font-size: 12px; color:#eee">fixhome</span><br/>
-              <small><?php echo T('FIXHOME_TXT'); ?></small>
+            <li style="padding: 7px"><span style="font-size: 12px; color:#eee">fix-disk_widget_home</span><br/>
+              <small><?php echo T('FIXHOME_HOMEMOUNT_TXT'); ?></small>
+            </li>
+            <li style="padding: 7px"><span style="font-size: 12px; color:#eee">fix-disk_widget_root</span><br/>
+              <small><?php echo T('FIXHOME_ROOTMOUNT_TXT'); ?></small>
             </li>
           </ul>
           <h5 class="sidebar-title"><?php echo T('ADMIN_COMMANDS'); ?></h5>
@@ -214,11 +217,20 @@
             <li style="padding: 7px"><span style="font-size: 12px; color:#eee">changeUserpass</span><br/>
               <small><?php echo T('CHANGEUSERPASS_TXT'); ?></small>
             </li>
+	    <li style="padding: 7px"><span style="font-size: 12px; color:#eee">clean_mem</span><br/>
+              <small><?php echo T('CLEAN_MEM_TXT'); ?></small>
+            </li>
             <li style="padding: 7px"><span style="font-size: 12px; color:#eee">quickVPN</span><br/>
               <small><?php echo T('QUICKVPN_TXT'); ?></small>
             </li>
             <li style="padding: 7px"><span style="font-size: 12px; color:#eee">showspace</span><br/>
               <small><?php echo T('SHOWSPACE_TXT'); ?></small>
+            </li>
+	    <li style="padding: 7px"><span style="font-size: 12px; color:#eee">reload</span><br/>
+              <small><?php echo T('RELOAD_TXT'); ?></small>
+            </li>
+	    <li style="padding: 7px"><span style="font-size: 12px; color:#eee">removepackage-cron</span><br/>
+              <small><?php echo T('REMOVE_PACKAGE_CRON_TXT'); ?></small>
             </li>
             <li style="padding: 7px"><span style="font-size: 12px; color:#eee">upgradeBTSync</span><br/>
               <small><?php echo T('UPGRADEBTSYNC_TXT'); ?></small>
@@ -229,6 +241,9 @@
             <li style="padding: 7px"><span style="font-size: 12px; color:#eee">upgradeJackett</span><br/>
               <small><?php echo T('UPGRADEJACKETT_TXT'); ?></small>
             </li>
+            <li style="padding: 7px"><span style="font-size: 12px; color:#eee">upgradeOmbi</span><br/>
+              <small><?php echo T('UPGRADEOMBI_TXT'); ?></small>
+            </li>
             <li style="padding: 7px"><span style="font-size: 12px; color:#eee">upgradePlex</span><br/>
               <small><?php echo T('UPGRADEPLEX_TXT'); ?></small>
             </li>
@@ -238,8 +253,8 @@
             <li style="padding: 7px"><span style="font-size: 12px; color:#eee">setup-pyLoad</span><br/>
               <small><?php echo T('SETUPPYLOAD_TXT'); ?></small>
             </li>
-            <li style="padding: 7px"><span style="font-size: 12px; color:#eee">clean_mem</span><br/>
-              <small><?php echo T('CLEAN_MEM_TXT'); ?></small>
+            <li style="padding: 7px"><span style="font-size: 12px; color:#eee"><a href="https://quickbox.io/wiki/quickbox-commands/">More commands</a></span><br/>
+              <small><?php echo T('MORE_COMMANDS_TXT'); ?></small>
             </li>
           </ul>
           <?php } ?>
