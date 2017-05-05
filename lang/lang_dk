@@ -141,7 +141,7 @@ $L['ZNC'] = 'ZNC er en IRC bouncer eller BNC. Den kan frigøre ircklienten fra s
 
 // package management center buttons
 $L['CLI'] = 'Kun Webkonsol';
-$L['INSTALL'] = 'Install';
+$L['INSTALL'] = 'Installér';
 $L['INSTALLED'] = 'Installeret';
 $L['OVPN_TOOLTIP_I'] = 'Adgang til denne feature fås via webkonsollen ved at skrive: quickVPN';
 $L['OVPN_TOOLTIP_U'] = 'Adgang til denne feature fås via webkonsollen ved at skrive: quickVPN';
