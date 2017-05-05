@@ -55,7 +55,7 @@ $L['UPGRADEOMBI_TXT'] = 'Skriv denne kommando i ssh for at opgradere Ombi til ny
 $L['SETUPPYLOAD_TXT'] = 'Skriv denne kommando i ssh for at køre pyLoad setup script.';
 $L['CLEAN_MEM_TXT'] = 'Skriv denne kommando i ssh (root) for at nulstille systemets fysiske Hukommelsescache.';
 $L['REMOVE_PACKAGE_CRON_TXT'] = 'Opgraderer dit system til at gøre brug af systemd.';
-$L['MORE_COMMANDS_TXT'] = 'Læs mere detaljere om Quick Box kommandoer her.';
+$L['MORE_COMMANDS_TXT'] = 'Læs mere detaljeret om Quick Box kommandoer her.';
 // essential user commands section
 $L['ESSENTIAL_USER_COMMANDS'] = 'Vigtige Brugerkommandoer';
 $L['RELOAD_TXT'] = 'tillader en bruger at genstarte services (rtorrent and irssi)';
